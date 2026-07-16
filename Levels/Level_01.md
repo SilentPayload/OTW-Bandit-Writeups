@@ -25,5 +25,3 @@ You looked at the `sshd_config` file and got confused because i was thinking lik
 1.  **Server-Side vs. Client-Side:** I was looking at the *server's* configuration. The server is configured to prevent "lateral movement" (hopping from one user to another without logging out). This is a security feature! You *want* the server to be configured that way to keep users isolated.
 2.  **The "Attacker" Perspective:** In a CTF/Wargame, you aren't an admin. You are an external user. You don't have the authority to modify the server's rules—you have to play by them. 
 3.  **The "Ah-ha" Moment:** When I exit `bandit0` and reconnect as `bandit1`, i am effectively "re-attacking" the server with a new set of credentials. That is exactly how real-world authentication bypasses or credential-based attacks work.
-
----
