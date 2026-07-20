@@ -3,10 +3,10 @@
 ## 🎯 The Objective
 The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
 ## 🛠️ Commands used
-- 'ls'
-- 'cd'
-- 'file'
-- 'cat'
+- `ls`
+- `cd`
+- `file`
+- `cat`
 
 # Solution
 ssh -p 2220 bandit4@bandit.labs.overthewire.org
@@ -14,6 +14,7 @@ i used the ls command to see what i have and i saw a directory named *inhere*, t
 
 ![Terminal output showing the file command identifying ASCII text](assets/bandit4-5.png)
 
+i used the `file` command to find the exact file type of each file. From previous tasks the passwords were usually `ASCII` so i found the `ASCII` filetype on -file007 and that was my password.
 
 * **Password: Redacted**
 
