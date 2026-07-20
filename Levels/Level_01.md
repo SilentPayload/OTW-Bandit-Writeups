@@ -11,7 +11,7 @@ Connect to the server via SSH as `bandit0` and locate the password for the next 
 ## 📝 The Solution
 1. Connect to the host on the specified port:
    ```bash
-   ssh -p 2220 bandit0@bandit.labs.overthewire.org 
+   `ssh -p 2220 bandit0@bandit.labs.overthewire.org` 
 
 ### Part 2: The "Mistake" Breakdown (Why you hit a wall)
 
